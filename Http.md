@@ -103,11 +103,11 @@
 
 收到一个证书A后如果发现他不是根证书，就会找到该证书的颁布机构，然后请求该机构的证书，这样重复下去，直到该证书没有上级签发机构即为根证书，之后自证自己的身份后，往下去验证下级证书的可信性，直到验证证书A
 
-![image-20220714125900644](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/02_%E8%AE%A4%E8%AF%81%E8%BF%87%E7%A8%8B.png)
+![数字证书认证](Http.assets\02_认证过程.png)
 
 SSL
 
-![image-20220714112721444](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/03_TTL%E6%8F%A1%E6%89%8B.png)
+![TTL握手](Http.assets\03_TTL握手.png)
 
 ### Http/1.1 Http/2 Http/3演变
 
@@ -141,7 +141,7 @@ SSL
 
 因为不同数据流的包可以并行发送，同一个连接里连续的数据包，会属于不同数据流，
 
-![image-20220719105358709](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/04_stream.png)
+![数据流](Http.assets\04_stream.png)
 
 ##### <font color =red>多路复用</font>
 
@@ -173,9 +173,7 @@ SSL
 
 **缺点**：还没大量普及
 
-
-
-![image-20220720110202704](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/05_http0_3.png)
+![Http0_3](Http.assets\05_http0_3.png)
 
 ## Http1.1的优化
 
@@ -186,4 +184,6 @@ SSL
 Cookie session token
 
 ### 减少Http请求次数
+
+
 
