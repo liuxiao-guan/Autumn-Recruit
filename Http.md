@@ -95,17 +95,17 @@
 
 #### 身份认证--------数字证书
 
-![image-20220714124757081](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20220714124757081.png)
+![image-20220714124757081](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/01_%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6.png)
 
 **数字证书认证的过程**：
 
 收到一个证书A后如果发现他不是根证书，就会找到该证书的颁布机构，然后请求该机构的证书，这样重复下去，直到该证书没有上级签发机构即为根证书，之后自证自己的身份后，往下去验证下级证书的可信性，直到验证证书A
 
-![image-20220714125900644](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20220714125900644.png)
+![image-20220714125900644](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/02_%E8%AE%A4%E8%AF%81%E8%BF%87%E7%A8%8B.png)
 
 SSL
 
-![image-20220714112721444](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20220714112721444.png)
+![image-20220714112721444](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/blob/main/image/03_TTL%E6%8F%A1%E6%89%8B.png)
 
 ### Http/1.1 Http/2 Http/3演变
 
@@ -139,7 +139,7 @@ SSL
 
 因为不同数据流的包可以并行发送，同一个连接里连续的数据包，会属于不同数据流，
 
-![image-20220719105358709](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20220719105358709.png)
+![image-20220719105358709](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/04_stream.png)
 
 ##### <font color =red>多路复用</font>
 
@@ -173,7 +173,7 @@ SSL
 
 
 
-![image-20220720110202704](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20220720110202704.png)
+![image-20220720110202704](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/05_http0_3.png)
 
 ## Http1.1的优化
 
