@@ -105,7 +105,7 @@
 
 SSL
 
-![image-20220714112721444](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/blob/main/image/03_TTL%E6%8F%A1%E6%89%8B.png)
+![image-20220714112721444](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/03_TTL%E6%8F%A1%E6%89%8B.png)
 
 ### Http/1.1 Http/2 Http/3演变
 
