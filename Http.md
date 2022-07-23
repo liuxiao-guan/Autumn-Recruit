@@ -97,6 +97,8 @@
 
 ![image-20220714124757081](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/01_%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6.png)
 
+![avatar](.\image\01_数字证书.png)
+
 **数字证书认证的过程**：
 
 收到一个证书A后如果发现他不是根证书，就会找到该证书的颁布机构，然后请求该机构的证书，这样重复下去，直到该证书没有上级签发机构即为根证书，之后自证自己的身份后，往下去验证下级证书的可信性，直到验证证书A
