@@ -97,7 +97,7 @@
 
 ![image-20220714124757081](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/01_%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6.png)
 
-![avatar](.\image\01_数字证书.png)
+![avatar](image/01_数字证书.png)
 
 **数字证书认证的过程**：
 
