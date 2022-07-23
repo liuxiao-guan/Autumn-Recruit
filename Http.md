@@ -95,19 +95,17 @@
 
 #### 身份认证--------数字证书
 
-![image-20220714124757081](https://raw.githubusercontent.com/liuxiao-guan/CS_Interview/main/image/01_%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6.png)
-
-![avatar](image/01_数字证书.png)
+![数字证书](Http.assets/01_数字证书.png)
 
 **数字证书认证的过程**：
 
 收到一个证书A后如果发现他不是根证书，就会找到该证书的颁布机构，然后请求该机构的证书，这样重复下去，直到该证书没有上级签发机构即为根证书，之后自证自己的身份后，往下去验证下级证书的可信性，直到验证证书A
 
-![数字证书认证](Http.assets\02_认证过程.png)
+![数字证书认证](Http.assets/02_认证过程.png)
 
 SSL
 
-![TTL握手](Http.assets\03_TTL握手.png)
+![TTL握手](Http.assets/03_TTL握手.png)
 
 ### Http/1.1 Http/2 Http/3演变
 
@@ -141,7 +139,7 @@ SSL
 
 因为不同数据流的包可以并行发送，同一个连接里连续的数据包，会属于不同数据流，
 
-![数据流](Http.assets\04_stream.png)
+![数据流](Http.assets/04_stream.png)
 
 ##### <font color =red>多路复用</font>
 
@@ -173,7 +171,7 @@ SSL
 
 **缺点**：还没大量普及
 
-![Http0_3](Http.assets\05_http0_3.png)
+![Http0_3](Http.assets/05_http0_3.png)
 
 ## Http1.1的优化
 
